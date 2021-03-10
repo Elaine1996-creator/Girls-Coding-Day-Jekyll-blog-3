@@ -5,27 +5,15 @@ baseurl_featured_img: '/Girls-Coding-Day-Jekyll-blog-3/assets/images/hero/'
 baseurl_featured_thumbnail: '/Girls-Coding-Day-Jekyll-blog-3/assets/images/thumbnail/'
 baseurl_javascripts: '/Girls-Coding-Day-Jekyll-blog-3/assets/javascripts/'
 
-# Setup
-name: "Girls Coding Day"
-# 网站的主标题
+# 网页的标题
 title: "Girls Coding Day"
-tagline: "女性, 编程, 教育, 公益"
-description: "关注我们公众号/微博：codingirlsclub"
+# 网站的主标题
+name: "Girls Coding Day"
+description: "架起女性与编程的桥梁"
 
 url: site url
 icon: your site icon path # /assets/img/icon.png [best 300px X 300px]
 disqus: disqus_shortname # get it on https://disqus.com/admin/
-
-author:
-  name: your name
-  url: your site url
-  facebook: username
-  twitter: username
-  google_plus: username
-  linkedin: username
-  dribbble: username
-  pinterest: username
-  kiva: username
 
 defaults:
   - scope:

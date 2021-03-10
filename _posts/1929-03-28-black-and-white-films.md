@@ -1,11 +1,6 @@
 ---
 layout: post
 title:  "Black and white films"
-date:   1929-03-28 01:00:00
-date:   1929-03-28 01:00:00
-excerpt: "In Mickey's early films he was often characterized not as a hero, but as an ineffective young suitor to Minnie Mouse..."
-categories: history
-tags:  mickey
 image:
   feature: mickey-1929.jpg
   topPosition: -50px
