@@ -232,7 +232,7 @@ syntaxHighlighter: no
 其中:  
 1. `layout: post` 不需要改变  
 2. `title` 的值可以替换为其它内容, 标题的值必须用双引号 `"` 包住  
-3. `image` 的内容来自于 [assets/images](assets/images) 文件夹下, 你可以上传本地. 详细方法见 [上传图片](#上传图片)  
+3. `image` 的内容来自于 [assets/images/hero](assets/images/hero) 文件夹下, 你可以上传本地. 详细方法见 [上传图片](#上传图片)  
 
 ![create-post-success.png](docs/create-post-success.png)
 
