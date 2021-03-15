@@ -15,6 +15,7 @@
   * [修改网站的主题和标题](#修改网站的主题和标题)
   * [提交更改合并到 git 仓库的主分支](#提交更改合并到-git-仓库的主分支)
 * [上传图片](#上传图片)
+  * [在文章中插入图片](#在文章中插入图片)
 * [发布, 更改, 删除文章](#发布-更改-删除文章)
   * [文章内容开头模版](#文章内容开头模版)
   * [发布新文章](#发布新文章)
@@ -65,7 +66,11 @@
 
 ```
 # "/" + 仓库的名字. 资源文件的路径组成部分
-baseurl: "/Girls-Coding-Day-Jekyll-blog-3"
+baseurl: '/Girls-Coding-Day-Jekyll-blog-3'
+baseurl_posts_img: '/Girls-Coding-Day-Jekyll-blog-3/assets/images/posts/'
+baseurl_featured_img: '/Girls-Coding-Day-Jekyll-blog-3/assets/images/hero/'
+baseurl_featured_thumbnail: '/Girls-Coding-Day-Jekyll-blog-3/assets/images/thumbnail/'
+baseurl_javascripts: '/Girls-Coding-Day-Jekyll-blog-3/assets/javascripts/'
 ```
 
 修改为自己的仓库名称, 例如你的仓库名称为 `my-first-blog`:  
@@ -73,7 +78,11 @@ baseurl: "/Girls-Coding-Day-Jekyll-blog-3"
 
 ```
 # "/" + 仓库的名字. 资源文件的路径组成部分
-baseurl: "/my-first-blog"
+baseurl: '/my-first-blog'
+baseurl_posts_img: '/my-first-blog/assets/images/posts/'
+baseurl_featured_img: '/my-first-blog/assets/images/hero/'
+baseurl_featured_thumbnail: '/my-first-blog/assets/images/thumbnail/'
+baseurl_javascripts: '/my-first-blog/assets/javascripts/'
 ```
 
 ## 修改网站的主题和标题
@@ -140,6 +149,36 @@ description: "记录我的生活，学习和工作感悟 🥳"
 
 ## 7. 查看图片结果  
 ![check-cat.png](docs/check-cat.png)
+
+## 在文章中插入图片  
+### 1. 在文章的开头我们添加了  
+```yml
+---
+layout: post
+title:  "道码旦・由来"
+image:
+  feature: 001.jpg
+  topPosition: 0px
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
+---
+```  
+大家注意到图片设置在 `feature: 001.jpg` 这里, 替换这张图片需要两步:  
+1. 将图片上传到 `assets/images/hero` 文件夹下
+2. 将图片上传到 `assets/images/thumbnail` 文件夹下  
+
+### 2. 当你需要在文章内部添加图片, 需要做两部分操作  
+1. 上传图片到 `assets/images/post` 文件夹下
+2. 在文章内部使用
+  
+```
+<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}002.jpg);"></div>
+```
+
+替换 `002.jpg` 问你上传的文件名  
+
+大功告成啦！
 
 # 发布, 更改, 删除文章
 ## 文章内容开头模版
