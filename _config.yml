@@ -11,6 +11,7 @@ title: "Girls Coding Day"
 name: "Girls Coding Day"
 description: "架起女性与编程的桥梁"
 
+# 其它配置, 可忽略, 无需修改
 url: site url
 icon: your site icon path # /assets/img/icon.png [best 300px X 300px]
 disqus: disqus_shortname # get it on https://disqus.com/admin/
@@ -22,7 +23,6 @@ defaults:
     values:
       layout: "default"
 
-# 其它配置, 可忽略, 无需修改
 permalink: /:title/
 
 markdown: kramdown
