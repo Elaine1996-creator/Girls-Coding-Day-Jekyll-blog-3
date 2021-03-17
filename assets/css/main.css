@@ -507,7 +507,6 @@ body {
 }
 
 .brandLogo {
-  background-image: url(../images/logo-white.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1604,10 +1603,8 @@ body {
 }
 
 .menuWrapper ul a {
-  display: block;
-  color: #333;
+  color: #a34a4a;
   text-decoration: none;
-  padding: 0 15px;
 }
 
 .menuWrapper ul ul {
