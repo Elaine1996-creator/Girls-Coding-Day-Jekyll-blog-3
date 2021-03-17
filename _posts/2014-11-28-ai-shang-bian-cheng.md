@@ -41,7 +41,7 @@ syntaxHighlighter: no
 
 当我收到Amplitude的欢迎礼物时，其中包括一个Neko Atsume杯子和一本Persona 3艺术书，我哭了。我哭是因为自己内心深处那个收集不同指甲油却从不涂指甲油上学前班的小女孩，为那个为了午餐时能和男生坐在一起而假装不喜欢男生的少女，为那个不敢为自己的智力感到骄傲的大学生。我哭了，因为我觉得第一次我身边的人不仅会接受我是谁，而且还会赞美那些让我独一无二的矛盾。我哭是因为我真的非常喜欢这两款游戏，而且每天都会和那些接受我的人一起度过美好的时光。  
 
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}101.jpg);"></div>
+<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl }}/assets/images/101.jpg);"></div>
 
 在我加入Amplitude几周后，我和我的团队参加了一个JavaScript见面会，讨论React的最佳实践，React是我们应用的前端框架。在这次见面会上，大约有50人参加。我立刻注意到观众席上只有一个女性面孔。  
 "我是这里唯一的另一个女孩，"我紧张地对我的一个同事低声说。  

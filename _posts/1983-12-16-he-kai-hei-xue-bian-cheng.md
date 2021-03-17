@@ -51,7 +51,7 @@ Coding Girls Club 有一个积累七年在全国有想学编程的社群、还�
 
 还等什么呢？ 快来加入我们吧 ：）  
 
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}203.jpg);"></div>
+<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl }}/assets/images/203.jpg);"></div>
 
 #### References
 封面图片来源: [VPoltrack](https://twitter.com/VPoltrack)  

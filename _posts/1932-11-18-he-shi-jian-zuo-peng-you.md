@@ -32,9 +32,8 @@ ThoughtWorks 敏捷团队和组织转型咨询师、大数据和人工智能领�
 * 多个角色，多重任务，你有没有分身乏力，你如何分配时间？
 * 在家办公，是高效了，还是出现了新的问题，你如何管理？
 
-<div class="img img--fullContainer img--16xLeading" style="background-image: url({{ site.baseurl_posts_img }}301.jpg);"></div>
+<div class="img img--fullContainer img--16xLeading" style="background-image: url({{ site.baseurl }}/assets/images/301.jpg);"></div>
 
 #### References
 封面图片来源: [VPoltrack](https://twitter.com/VPoltrack)  
 内容图片来源: CodingGirlsClub 公众号 
-   

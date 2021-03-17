@@ -67,10 +67,6 @@
 ```
 # "/" + 仓库的名字. 资源文件的路径组成部分
 baseurl: '/Girls-Coding-Day-Jekyll-blog-3'
-baseurl_posts_img: '/Girls-Coding-Day-Jekyll-blog-3/assets/images/posts/'
-baseurl_featured_img: '/Girls-Coding-Day-Jekyll-blog-3/assets/images/hero/'
-baseurl_featured_thumbnail: '/Girls-Coding-Day-Jekyll-blog-3/assets/images/thumbnail/'
-baseurl_javascripts: '/Girls-Coding-Day-Jekyll-blog-3/assets/javascripts/'
 ```
 
 修改为自己的仓库名称, 例如你的仓库名称为 `my-first-blog`:  
@@ -79,10 +75,6 @@ baseurl_javascripts: '/Girls-Coding-Day-Jekyll-blog-3/assets/javascripts/'
 ```
 # "/" + 仓库的名字. 资源文件的路径组成部分
 baseurl: '/my-first-blog'
-baseurl_posts_img: '/my-first-blog/assets/images/posts/'
-baseurl_featured_img: '/my-first-blog/assets/images/hero/'
-baseurl_featured_thumbnail: '/my-first-blog/assets/images/thumbnail/'
-baseurl_javascripts: '/my-first-blog/assets/javascripts/'
 ```
 
 ## 修改网站的主题和标题
@@ -175,7 +167,7 @@ syntaxHighlighter: no
 2. 在文章内部使用
   
 ```
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_posts_img }}002.jpg);"></div>
+<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl }}/assets/images/002.jpg);"></div>
 ```
 
 替换 `002.jpg` 问你上传的文件名  
