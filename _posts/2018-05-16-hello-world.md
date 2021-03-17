@@ -2,7 +2,7 @@
 layout: post
 title:  "人哪，总要做一些“无意义”的事情"
 image:
-  feature: 301.jpg
+  feature: 333.jpg
   topPosition: -200px
 bgContrast: dark
 bgGradientOpacity: darker
