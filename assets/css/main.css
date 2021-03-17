@@ -283,6 +283,14 @@ blockquote {
   border-left: 4px solid #222;
 }
 
+.content-body img {
+    width: 100%;
+}
+
+.backtowebsite {
+    color: #FFFFFF;
+}
+
 @media (max-width: 767px) {
   blockquote {
     padding-left: 15px;

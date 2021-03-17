@@ -1,5 +1,5 @@
 <nav role="navigation" class="sidebar sidebar--right">
-  <a href="{{site.baseurl}}">{{ site.name }}</a>
+  <a href="{{site.baseurl}}" class="backtowebsite">回到网站首页</a>
   <ul class="sidebar-recentPosts">
     {% for post in site.posts offset:0 limit:10 %}
       {% if post.title == page.title %}

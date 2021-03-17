@@ -159,18 +159,18 @@ syntaxHighlighter: no
 ---
 ```  
 大家注意到图片设置在 `feature: 001.jpg` 这里, 替换这张图片需要两步:  
-1. 将图片上传到 `assets/images/hero` 文件夹下
-2. 将图片上传到 `assets/images/thumbnail` 文件夹下  
+1. 将图片上传到 `assets/images` 文件夹下
+2. 替换 `001.jpg` 为你上传的图片名称
 
 ### 2. 当你需要在文章内部添加图片, 需要做两部分操作  
-1. 上传图片到 `assets/images/post` 文件夹下
+1. 上传图片到 `assets/images` 文件夹下
 2. 在文章内部使用
   
 ```
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl }}/assets/images/002.jpg);"></div>
+![002](../assets/images/002.jpg)
 ```
 
-替换 `002.jpg` 问你上传的文件名  
+替换 `002.jpg` 为你上传的文件名  
 
 大功告成啦！
 
