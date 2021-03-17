@@ -28,7 +28,7 @@ layout: default
               <article class="postArticle postArticle--short">
                 {% if post.image.feature %}
                   <a href="{{ site.baseurl }}{{ post.url }}">
-                    <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: /assets/images | prepend: site.baseurl }}')">
+                    <div class="postArticle-image desaturate" style="background-image:url('{{ site.baseurl }}/assets/images/{{ post.image.feature }}')">
                     </div>
                   </a>
                 {% else %}

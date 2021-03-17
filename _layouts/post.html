@@ -6,7 +6,7 @@ layout: default
     <div class="section-backgroundImage">
 
       {% if page.image.feature %}
-        <img class="post-featuredImage" src="{{ page.image.feature | prepend: /assets/images | prepend: site.baseurl }}" style="
+        <img class="post-featuredImage" src="{{ site.baseurl }}/assets/images/{{ page.image.feature }}" style="
         {% if page.image.topPosition %}
           top:{{ page.image.topPosition }};
         {% endif %}
@@ -55,7 +55,6 @@ layout: default
     <hr/>
     <div class="container container--content">
       <div class="content-body">
-        {% include subscribe.html %}
         {% include comments.html %}
       </div>
     </div>
@@ -66,7 +65,7 @@ layout: default
         <div class="section-backgroundImage section-backgroundImage--previousPage">
           <img class="post-featuredImage"
           {% if page.previous.image.feature %}
-            src="{{ page.previous.image.feature | prepend: /assets/images | prepend: site.baseurl }}"
+            src="{{ site.baseurl }}/assets/images/{{ page.previous.image.feature }}"
           {% endif %}
           style="top:0" alt="">
         </div>
@@ -89,5 +88,3 @@ layout: default
     {% endif %}
   </footer>
 </article>
-
-{% include modal.html %}
